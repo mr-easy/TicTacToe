@@ -1,0 +1,37 @@
+<html>
+<title>Tic Tac Toe</title>
+<head>
+<link rel="stylesheet" type="text/css" href="TicTacToe.css" />
+<script src="TicTacToe.js"></script>
+</head>
+<body onload="initialize()">
+    <div id="heading">
+        <h1 align="center">TicTacToe</h1>
+    </div>
+    <div id="info" style="float: left; padding: 50px; margin-left: 100px;">
+        <p id="currentChance"></p>
+        <p>Play the classic Tic-Tac-Toe game (also called Noughts and Crosses) for free for two players.</p>
+    </div>
+    <div id="container" style="float: right; padding: 50px; margin-right: 100px;">
+        <div id="grid">
+            <table border="solid 2px black">
+                <tr>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell11">a</td>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell12">a</td>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell13">a</td>
+                </tr>
+                <tr>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell21">a</td>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell22">a</td>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell23">a</td>
+                </tr>
+                <tr>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell31">a</td>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell32">a</td>
+                    <td width="100px" height="100px" align="center" onclick="chance(this)" id="cell33">a</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
